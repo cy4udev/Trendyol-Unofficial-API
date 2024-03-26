@@ -1,0 +1,23 @@
+{
+  "name": "trendyol-unofficial-api",
+  "version": "1.0.0",
+  "description": "Trendyol Unofficial API -> Authenticate, Follow Store, Unfollow Store, Like Product and Unlike Product.",
+  "main": "dist/trendyolAPI.js",
+  "keywords": [
+    "Trendyol",
+    "Trendyol API",
+    "Trendyol Unofficial API"
+  ],
+  "author": "c4udev",
+  "license": "c4udev",
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cy4udev/Trendyol-Unofficial-API.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
