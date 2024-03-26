@@ -1,6 +1,6 @@
 # Trendyol Unofficial API
 
-**API will go live on 28.03.2024 at 00:00.**
+**API will go live on 03.28.2024 at 00:00.**
 
 In the realm of e-commerce, **Trendyol** stands as one of the prominent platforms, offering a diverse range of products. 
 
