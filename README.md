@@ -36,7 +36,7 @@ const { Trendyol } = require('trendyol-unofficial-api');
 ```
 
 
-#### Login for Trendyol
+#### Login with Trendyol
 ```js
  async function loginTrendyol() {
     const trendyol = new Trendyol();
@@ -153,15 +153,15 @@ unfollowStore();
     unlikeProduct();
 ```
 
-#### Sponsor & Donate
-
-[Patreon](https://patreon.com/cy4udev)
-
 #### Keywords
 
 [Trendyol](https://cy4u.dev/Trendyol-Unofficial-API/), [Trendyol API](https://cy4u.dev/Trendyol-Unofficial-API/), [Trendyol Unofficial API](https://cy4u.dev/Trendyol-Unofficial-API/), [NodeJS Developer](https://cy4u.dev), [PHP Developer](https://cy4u.dev), [Back-end Developer](https://cy4u.dev), [Node.JS Developer](https://cy4u.dev)
 
-#### Copyright and other issues
+#### Sponsor & Donate
+
+[Patreon](https://patreon.com/cy4udev)
+
+#### Copyright & Other Issues
 
 [hello@cy4u.dev](mailto:hello@cy4u.dev)
 
