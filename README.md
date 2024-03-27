@@ -1,6 +1,6 @@
 # Trendyol Unofficial API
 
-[**Türkçe**](/README-TR "Türkçe")
+[**Türkçe**](README-TR.md)
 
 **API will go live on 03.28.2024 at 00:00.**
 
