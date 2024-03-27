@@ -1,6 +1,6 @@
 # Trendyol Unofficial API
 
-**Available Languages**: [🇺🇸](https://cy4u.dev/Trendyol-Unofficial-API/ "English") [🇹🇷](https://cy4u.dev/Trendyol-Unofficial-API/README-TR "Turkish")
+**Available Languages**: [🇺🇸](https://cy4u.dev/Trendyol-Unofficial-API/ "English") [🇹🇷](https://cy4u.dev/Trendyol-Unofficial-API/tr "Turkish")
 
 **API will go live on 03.28.2024 at 00:00.**
 
