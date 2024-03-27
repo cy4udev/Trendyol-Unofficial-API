@@ -1,6 +1,6 @@
 # Trendyol Unofficial API
 
-**Mevcut Diller**: [🇹🇷](https://cy4u.dev/Trendyol-Unofficial-API/README-TR "Türkçe") [🇺🇸](https://cy4u.dev/Trendyol-Unofficial-API/ "İngilizce")
+**Mevcut Diller**: [🇹🇷](https://cy4u.dev/Trendyol-Unofficial-API/tr "Türkçe") [🇺🇸](https://cy4u.dev/Trendyol-Unofficial-API/ "İngilizce")
 
 **API 28.03.2024 tarihinde saat 00:00'da yayına girecektir.**
 
