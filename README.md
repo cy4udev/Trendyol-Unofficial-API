@@ -16,7 +16,7 @@ Node.js, being a versatile runtime environment, empowers developers to build sca
 
 By leveraging JavaScript, developers can harness the power of asynchronous programming, making it an ideal choice for handling network requests and API integrations.
 
-Our **Trendyol API** aims to encapsulate the intricacies of interacting with **[Trendyol Unofficial API](https://cy4u.dev/Trendyol-Unofficial-API/ "Trendyol Unofficial API")**, offering a simplified interface for developers to perform various actions seamlessly.
+Our **Trendyol API** aims to encapsulate the intricacies of interacting with **[Trendyol Unofficial API]**(https://cy4u.dev/Trendyol-Unofficial-API/ "Trendyol Unofficial API"), offering a simplified interface for developers to perform various actions seamlessly.
 
 ### Getting Started
 
@@ -162,16 +162,16 @@ unfollowStore();
 
 #### Keywords
 
-[**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/), [**Trendyol API**](https://cy4u.dev/Trendyol-Unofficial-API/), [**Trendyol Unofficial API**](https://cy4u.dev/Trendyol-Unofficial-API/), [**NodeJS Developer**](https://cy4u.dev), [**Back-end Developer**](https://cy4u.dev), [**Node.JS Developer**](https://cy4u.dev)
+[**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/ "Trendyol"), [**Trendyol API**](https://cy4u.dev/Trendyol-Unofficial-API/ "Trendyol API"), [**Trendyol Unofficial API**](https://cy4u.dev/Trendyol-Unofficial-API/ "Trendyol Unofficial API"), [**NodeJS Developer**](https://cy4u.dev "NodeJS Developer"), [**Back-end Developer**](https://cy4u.dev "Back-end Developer"), [**Node.JS Developer**](https://cy4u.dev "Node.JS Developer")
 
 #### Sponsor & Donate
 
-[Patreon](https://patreon.com/cy4udev)
+[Patreon](https://patreon.com/cy4udev "cy4udev patreon")
 
 #### Copyright & Other Issues
 
-[hello@cy4u.dev](mailto:hello@cy4u.dev)
+[hello@cy4u.dev](mailto:hello@cy4u.dev "hello@cy4u.dev")
 
 #### License
 
-[**Can Yesilyurt**](https://canyesilyurt.com) & [**cy4udev**](https://cy4u.dev)
+[**Can Yesilyurt**](https://canyesilyurt.com "Can Yesilyurt") & [**cy4udev**](https://cy4u.dev "cy4udev")

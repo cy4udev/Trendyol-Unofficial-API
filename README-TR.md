@@ -16,7 +16,7 @@ Bu makalede, **Trendyol** için özel olarak tasarlanmış bir Node.js kütüpha
 
 Geliştiriciler JavaScript'ten yararlanarak eşzamansız programlamanın gücünü kullanabilir ve bu da onu ağ isteklerini ve API entegrasyonlarını işlemek için ideal bir seçim haline getirir.
 
-**Trendyol API**'miz, **[Trendyol Unofficial API](https://cy4u.dev/Trendyol-Unofficial-API/ "Trendyol Unofficial API")** ile etkileşime girmenin karmaşıklıklarını kapsüllemeyi ve geliştiricilerin çeşitli eylemleri sorunsuz bir şekilde gerçekleştirmeleri için basitleştirilmiş bir arayüz sunmayı amaçlamaktadır.
+**Trendyol API**'miz, **[Trendyol Unofficial API]**(https://cy4u.dev/Trendyol-Unofficial-API/ "Trendyol Unofficial API") ile etkileşime girmenin karmaşıklıklarını kapsüllemeyi ve geliştiricilerin çeşitli eylemleri sorunsuz bir şekilde gerçekleştirmeleri için basitleştirilmiş bir arayüz sunmayı amaçlamaktadır.
 
 ### Başlarken
 
@@ -160,16 +160,16 @@ unfollowStore();
 
 #### Anahtar Kelimeler
 
-[**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/), [**Trendyol API**](https://cy4u.dev/Trendyol-Unofficial-API/), [**Trendyol Unofficial API**](https://cy4u.dev/Trendyol-Unofficial-API/), [**NodeJS Developer**](https://cy4u.dev), [**Back-end Developer**](https://cy4u.dev), [**Node.JS Developer**](https://cy4u.dev)
+[**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/ "Trendyol"), [**Trendyol API**](https://cy4u.dev/Trendyol-Unofficial-API/ "Trendyol API"), [**Trendyol Unofficial API**](https://cy4u.dev/Trendyol-Unofficial-API/ "Trendyol Unofficial API"), [**NodeJS Developer**](https://cy4u.dev "NodeJS Developer"), [**Back-end Developer**](https://cy4u.dev "Back-end Developer"), [**Node.JS Developer**](https://cy4u.dev "Node.JS Developer")
 
 #### Sponsorluk ve Bağış
 
-[Patreon](https://patreon.com/cy4udev)
+[Patreon](https://patreon.com/cy4udev "cy4udev patreon")
 
 #### Telif Hakkı ve Diğer Konular
 
-[hello@cy4u.dev](mailto:hello@cy4u.dev)
+[hello@cy4u.dev](mailto:hello@cy4u.dev "hello@cy4u.dev")
 
 #### Lisans
 
-[**Can Yesilyurt**](https://canyesilyurt.com) & [**cy4udev**](https://cy4u.dev)
+[**Can Yesilyurt**](https://canyesilyurt.com "Can Yesilyurt") & [**cy4udev**](https://cy4u.dev "cy4udev")
