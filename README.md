@@ -4,9 +4,9 @@
 
 **API will go live on 03.28.2024 at 00:00.**
 
-In the realm of e-commerce, **Trendyol** stands as one of the prominent platforms, offering a diverse range of products. 
+In the realm of e-commerce, [**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API "Trendyol") stands as one of the prominent platforms, offering a diverse range of products. 
 
-For developers looking to integrate **Trendyol**'s functionalities into their applications, crafting a robust library can streamline the process. 
+For developers looking to integrate [**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API "Trendyol")'s functionalities into their applications, crafting a robust library can streamline the process. 
 
 In this article, we'll delve into the creation of a Node.js library tailored specifically for **Trendyol**, allowing seamless integration for tasks like login, store tracking, untracking stores, liking products, and undoing likes.
 
