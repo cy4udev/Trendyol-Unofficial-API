@@ -155,7 +155,7 @@ unfollowStore();
 
 #### Keywords
 
-[Trendyol](https://cy4u.dev/Trendyol-Unofficial-API/), [Trendyol API](https://cy4u.dev/Trendyol-Unofficial-API/), [Trendyol Unofficial API](https://cy4u.dev/Trendyol-Unofficial-API/), [NodeJS Developer](https://cy4u.dev), [PHP Developer](https://cy4u.dev), [Back-end Developer](https://cy4u.dev), [Node.JS Developer](https://cy4u.dev)
+[**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/), [**Trendyol API**](https://cy4u.dev/Trendyol-Unofficial-API/), [**Trendyol Unofficial API**](https://cy4u.dev/Trendyol-Unofficial-API/), [**NodeJS Developer**](https://cy4u.dev),  [**Back-end Developer**](https://cy4u.dev), [**Node.JS Developer**](https://cy4u.dev)
 
 #### Sponsor & Donate
 
@@ -167,4 +167,4 @@ unfollowStore();
 
 #### License
 
-[Can Yesilyurt](https://canyesilyurt.com) & [cy4udev](https://cy4u.dev)
+[**Can Yesilyurt**](https://canyesilyurt.com) & [**cy4udev**](https://cy4u.dev)
