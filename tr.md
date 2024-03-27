@@ -14,7 +14,7 @@ Bu makalede, [**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyo
 
 Geliştiriciler JavaScript'ten yararlanarak eşzamansız programlamanın gücünü kullanabilir ve bu da onu ağ isteklerini ve API entegrasyonlarını işlemek için ideal bir seçim haline getirir.
 
-**Trendyol API**'miz, [**Trendyol Unofficial API**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyol Unofficial API") ile etkileşime girmenin karmaşıklıklarını kapsüllemeyi ve geliştiricilerin çeşitli eylemleri sorunsuz bir şekilde gerçekleştirmeleri için basitleştirilmiş bir arayüz sunmayı amaçlamaktadır.
+[**Trendyol API**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyol API")'miz, [**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyol") ile etkileşime girmenin karmaşıklıklarını kapsüllemeyi ve geliştiricilerin çeşitli eylemleri sorunsuz bir şekilde gerçekleştirmeleri için basitleştirilmiş bir arayüz sunmayı amaçlamaktadır.
 
 ### Başlarken
 
