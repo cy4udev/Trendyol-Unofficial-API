@@ -4,11 +4,11 @@
 
 **API 28.03.2024 tarihinde saat 00:00'da yayına girecektir.**
 
-E-ticaret alanında, **Trendyol** çok çeşitli ürünler sunan önde gelen platformlardan biri olarak öne çıkıyor.
+E-ticaret alanında, [**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyol") çok çeşitli ürünler sunan önde gelen platformlardan biri olarak öne çıkıyor.
 
 **Trendyol**'un işlevlerini uygulamalarına entegre etmek isteyen geliştiriciler için sağlam bir kütüphane oluşturmak süreci kolaylaştırabilir.
 
-Bu makalede, **Trendyol** için özel olarak tasarlanmış bir Node.js kütüphanesi oluşturarak oturum açma, mağaza takibi, mağazaların takibini kaldırma, ürünleri beğenme ve beğenileri geri alma gibi görevler için sorunsuz entegrasyon sağlayacağız.
+Bu makalede, [**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyol") için özel olarak tasarlanmış bir Node.js kütüphanesi oluşturarak oturum açma, mağaza takibi, mağazaların takibini kaldırma, ürünleri beğenme ve beğenileri geri alma gibi görevler için sorunsuz entegrasyon sağlayacağız.
 
 ## Trendyol Kütüphanesine Giriş 
 
