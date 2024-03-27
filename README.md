@@ -14,7 +14,7 @@ Node.js, being a versatile runtime environment, empowers developers to build sca
 
 By leveraging JavaScript, developers can harness the power of asynchronous programming, making it an ideal choice for handling network requests and API integrations.
 
-Our **Trendyol library** aims to encapsulate the intricacies of interacting with **[Trendyol Unofficial API](https://cy4u.dev/Trendyol-Unofficial-API/ "Trendyol Unofficial API")**, offering a simplified interface for developers to perform various actions seamlessly.
+Our **Trendyol api** aims to encapsulate the intricacies of interacting with **[Trendyol Unofficial API](https://cy4u.dev/Trendyol-Unofficial-API/ "Trendyol Unofficial API")**, offering a simplified interface for developers to perform various actions seamlessly.
 
 ### Getting Started
 
