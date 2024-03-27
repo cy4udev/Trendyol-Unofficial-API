@@ -1,21 +1,23 @@
-const axios = require('axios');
+import axios from 'axios';
 
 class Trendyol {
-
+    private language: string;
+    private username: string | null;
+    private password: string | null;
+    private accessToken: string | null;
+    private refreshToken: string | null;
+    private merthid: string | null;
 
     constructor(language = 'en') {
-
         this.language = language;
         this.username = null;
         this.password = null;
         this.accessToken = null;
         this.refreshToken = null;
         this.merthid = null;
-
-
     }
 
-    async login() {
+    async login(): Promise<any> {
         try {
             const response = await axios.post('https://auth.trendyol.com/login', {
                 email: this.username,
@@ -45,16 +47,16 @@ class Trendyol {
             this.refreshToken = response.data.refreshToken;
 
             return data;
-        } catch (error) {
+        } catch (error: any) {
             if (error?.response?.data?.message) {
                 throw error?.response?.data?.message;
             } else {
-                throw error.message
+                throw error.message;
             }
         }
     }
 
-    async extractId(link) {
+    async extractId(link: string): Promise<string | null> {
         let id = null;
         const regex1 = /-(\d+)\?/;
         const regex2 = /-p-(\d+)/;
@@ -71,7 +73,7 @@ class Trendyol {
         return id;
     }
 
-    async followStore(storeID) {
+    async followStore(storeID: string): Promise<any> {
         try {
             const response = await axios.post(`https://public-sdc.trendyol.com/discovery-sellerstore-webgw-service/v1/follow/?sellerId=${storeID}&channelId=1`, null, {
                 headers: {
@@ -87,15 +89,15 @@ class Trendyol {
                     'sec-fetch-site': 'same-site',
                     'te': 'trailers'
                 }
-            })
+            });
             return response.data;
-        } catch (error) {
+        } catch (error: any) {
             console.log(error);
-            throw error.message
+            throw error.message;
         }
     }
 
-    async unfollowStore(storeID) {
+    async unfollowStore(storeID: string): Promise<any> {
         try {
             const response = await axios.delete(`https://public-sdc.trendyol.com/discovery-sellerstore-webgw-service/v1/follow/?sellerId=${storeID}&culture=tr-TR&channelId=1`, {
                 headers: {
@@ -111,19 +113,19 @@ class Trendyol {
                     'sec-fetch-site': 'same-site',
                     'te': 'trailers'
                 }
-            })
+            });
             return response.data;
-        } catch (error) {
+        } catch (error: any) {
             console.log(error);
-            throw error.message
+            throw error.message;
         }
     }
 
-    async likeProduct(productID) {
+    async likeProduct(productID: string): Promise<any> {
         try {
             const data = {
                 "contentId": productID
-            }
+            };
             const response = await axios.post(`https://public-mdc.trendyol.com/discovery-web-recogw-service/api/favorites?storefrontId=1&culture=tr-TR&channelId=1`, data, {
                 headers: {
                     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0',
@@ -138,15 +140,15 @@ class Trendyol {
                     'sec-fetch-site': 'same-site',
                     'te': 'trailers',
                 }
-            })
+            });
             return response.data;
-        } catch (error) {
+        } catch (error: any) {
             console.log(error);
-            throw error.message
+            throw error.message;
         }
     }
 
-    async unlikeProduct(productID) {
+    async unlikeProduct(productID: string): Promise<any> {
         try {
             const response = await axios.delete(`https://public-mdc.trendyol.com/discovery-web-recogw-service/api/favorites?contentId=${productID}&storefrontId=1&culture=tr-TR&channelId=1`, {
                 headers: {
@@ -161,15 +163,12 @@ class Trendyol {
                     'sec-fetch-site': 'same-site',
                     'te': 'trailers'
                 }
-            })
+            });
             return response.data;
-        } catch (error) {
-            throw error.message
+        } catch (error: any) {
+            console.log(error);
+            throw error.message;
         }
     }
-
-
-
 }
-
-module.exports = { Trendyol }
+export { Trendyol };
