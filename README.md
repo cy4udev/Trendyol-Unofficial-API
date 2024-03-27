@@ -159,7 +159,7 @@ unfollowStore();
 
 #### Keywords
 
-[cy4udev](https://cy4u.dev), [Trendyol](https://cy4u.dev/Trendyol-Unofficial-API/), [Trendyol Unofficial API](https://cy4u.dev/Trendyol-Unofficial-API/), [NodeJS Developer](https://cy4u.dev), [PHP Developer](https://cy4u.dev), [Back-end Developer](https://cy4u.dev), [Node.JS Developer](https://cy4u.dev)
+[Trendyol](https://cy4u.dev/Trendyol-Unofficial-API/), [Trendyol Unofficial API](https://cy4u.dev/Trendyol-Unofficial-API/), [NodeJS Developer](https://cy4u.dev), [PHP Developer](https://cy4u.dev), [Back-end Developer](https://cy4u.dev), [Node.JS Developer](https://cy4u.dev), [Trendyol API](https://cy4u.dev/Trendyol-Unofficial-API/)
 
 #### Copyright and other issues
 
