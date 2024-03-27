@@ -1,6 +1,6 @@
 # Trendyol Unofficial API
 
-**Available Languages**: [🇺🇸](README.md "English") [🇹🇷](README-TR.md "Turkish")
+**Available Languages**: [🇺🇸](README "English") [🇹🇷](README-TR "Turkish")
 
 **API will go live on 03.28.2024 at 00:00.**
 
