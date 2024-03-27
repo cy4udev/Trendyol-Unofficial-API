@@ -1,6 +1,6 @@
 # Trendyol Unofficial API
 
-**Available Languages**: [🇺🇸](README.md) [🇹🇷](README-TR.md)
+**Available Languages**: [🇺🇸](README.md "English") [🇹🇷](README-TR.md "Turkish")
 
 **API will go live on 03.28.2024 at 00:00.**
 
@@ -39,6 +39,7 @@ const { Trendyol } = require('trendyol-unofficial-api');
 
 
 #### Login with Trendyol
+
 ```js
  async function loginTrendyol() {
     const trendyol = new Trendyol();
@@ -63,6 +64,7 @@ const { Trendyol } = require('trendyol-unofficial-api');
 loginTrendyol();
 ```
 #### Follow Store
+
 ```js
 async function followStore() {
     const trendyol = new Trendyol();
@@ -91,6 +93,7 @@ followStore();
 ```
 
 #### Unfollow Store
+
 ```js
 async function unfollowStore() {
     const trendyol = new Trendyol();
@@ -112,6 +115,7 @@ unfollowStore();
 ```
 
 #### Like Product
+
 ```js
     async function likeProduct() {
         const trendyol = new Trendyol();
@@ -134,6 +138,7 @@ unfollowStore();
 ```
 
 #### Unlike Product
+
 ```js
     async function unlikeProduct() {
         const trendyol = new Trendyol();
