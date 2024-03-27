@@ -2,8 +2,6 @@
 
 **Available Languages**: [🇺🇸](https://cy4u.dev/Trendyol-Unofficial-API/ "English") [🇹🇷](https://cy4u.dev/Trendyol-Unofficial-API/tr "Turkish")
 
-**API will go live on 03.28.2024 at 00:00.**
-
 In the realm of e-commerce, [**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API "Trendyol") stands as one of the prominent platforms, offering a diverse range of products. 
 
 For developers looking to integrate [**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API "Trendyol")'s functionalities into their applications, crafting a robust library can streamline the process. 
