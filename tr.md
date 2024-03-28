@@ -158,7 +158,7 @@ unfollowStore();
 
 #### Anahtar Kelimeler
 
-[**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyol"), [**Trendyol API**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyol API"), [**Trendyol Unofficial API**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyol Unofficial API"), [**NodeJS Developer**](https://cy4u.dev "NodeJS Developer"), [**Back-end Developer**](https://cy4u.dev "Back-end Developer"), [**Node.JS Developer**](https://cy4u.dev "Node.JS Developer")
+[**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyol"), [**Trendyol API**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyol API"), [**Trendyol Unofficial API**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyol Unofficial API"), [**NodeJS Developer**](https://cy4u.dev "NodeJS Developer"), [**Back-end Developer**](https://cy4u.dev "Back-end Developer"), [**Backend Developer**](https://cy4u.dev "Backend Developer"), [**Node.JS Developer**](https://cy4u.dev "Node.JS Developer")
 
 #### Sponsorluk ve Bağış
 
