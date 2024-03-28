@@ -162,7 +162,7 @@ unfollowStore();
 
 #### Sponsorluk ve Bağış
 
-[Patreon](https://patreon.com/cy4udev "cy4udev patreon")
+[Patreon](https://patreon.com/cy4udev "cy4udev patreon") |
 
 #### Telif Hakkı ve Diğer Konular
 
