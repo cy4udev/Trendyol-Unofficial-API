@@ -1,7 +1,7 @@
 {
     "name": "trendyol-unofficial-api",
-    "version": "3.0.2",
-    "description": "Trendyol Unofficial API -> Authenticate, Follow Store, Unfollow Store, Like Product and Unlike Product.",
+    "version": "3.0.3",
+    "description": "Trendyol API aims to encapsulate the intricacies of interacting with Trendyol, offering a simplified interface for developers to perform various actions seamlessly.",
     "main": "dist/Trendyol.js",
     "keywords": [
       "Trendyol",
