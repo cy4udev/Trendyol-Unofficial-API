@@ -1,6 +1,6 @@
 # Trendyol Unofficial API
 
-**Available Languages**: [🇺🇸](https://cy4u.dev/Trendyol-Unofficial-API/ "English") [🇹🇷](https://cy4u.dev/Trendyol-Unofficial-API/tr "Turkish")
+**Available Languages**: [🇺🇸](https://cy4u.dev/Trendyol-Unofficial-API/ "English") [🇹🇷](https://cy4u.dev/Trendyol-Unofficial-API/tr.html "Turkish")
 
 In the realm of e-commerce, [**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API "Trendyol") stands as one of the prominent platforms, offering a diverse range of products. 
 
