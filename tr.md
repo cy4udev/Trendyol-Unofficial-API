@@ -1,12 +1,12 @@
 # Trendyol Unofficial API
 
-**Mevcut Diller**: [🇹🇷](https://cy4u.dev/Trendyol-Unofficial-API/tr.html "Türkçe") [🇺🇸](https://cy4u.dev/Trendyol-Unofficial-API/ "İngilizce")
+**Mevcut Diller**: [🇹🇷](https://cy4u.dev/Trendyol-Unofficial-API/tr "Türkçe") [🇺🇸](https://cy4u.dev/Trendyol-Unofficial-API/ "İngilizce")
 
-E-ticaret alanında, [**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/tr.html "Trendyol") çok çeşitli ürünler sunan önde gelen platformlardan biri olarak öne çıkıyor.
+E-ticaret alanında, [**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyol") çok çeşitli ürünler sunan önde gelen platformlardan biri olarak öne çıkıyor.
 
 **Trendyol**'un işlevlerini uygulamalarına entegre etmek isteyen geliştiriciler için sağlam bir kütüphane oluşturmak süreci kolaylaştırabilir.
 
-Bu makalede, [**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/tr.html "Trendyol") için özel olarak tasarlanmış bir Node.js kütüphanesi oluşturarak oturum açma, mağaza takibi, mağazaların takibini kaldırma, ürünleri beğenme ve beğenileri geri alma gibi görevler için sorunsuz entegrasyon sağlayacağız.
+Bu makalede, [**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyol") için özel olarak tasarlanmış bir Node.js kütüphanesi oluşturarak oturum açma, mağaza takibi, mağazaların takibini kaldırma, ürünleri beğenme ve beğenileri geri alma gibi görevler için sorunsuz entegrasyon sağlayacağız.
 
 ## Trendyol Kütüphanesine Giriş 
 
@@ -14,7 +14,7 @@ Bu makalede, [**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/tr.html "Tr
 
 Geliştiriciler JavaScript'ten yararlanarak eşzamansız programlamanın gücünü kullanabilir ve bu da onu ağ isteklerini ve API entegrasyonlarını işlemek için ideal bir seçim haline getirir.
 
-[**Trendyol API**](https://cy4u.dev/Trendyol-Unofficial-API/tr.html "Trendyol API")'miz, [**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/tr.html "Trendyol") ile etkileşime girmenin karmaşıklıklarını kapsüllemeyi ve geliştiricilerin çeşitli eylemleri sorunsuz bir şekilde gerçekleştirmeleri için basitleştirilmiş bir arayüz sunmayı amaçlamaktadır.
+[**Trendyol API**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyol API")'miz, [**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyol") ile etkileşime girmenin karmaşıklıklarını kapsüllemeyi ve geliştiricilerin çeşitli eylemleri sorunsuz bir şekilde gerçekleştirmeleri için basitleştirilmiş bir arayüz sunmayı amaçlamaktadır.
 
 ### Başlarken
 
@@ -158,7 +158,7 @@ unfollowStore();
 
 #### Anahtar Kelimeler
 
-[**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/tr.html "Trendyol"), [**Trendyol API**](https://cy4u.dev/Trendyol-Unofficial-API/tr.html "Trendyol API"), [**Trendyol Unofficial API**](https://cy4u.dev/Trendyol-Unofficial-API/tr.html "Trendyol Unofficial API"), [**NodeJS Developer**](https://cy4u.dev "NodeJS Developer"), [**Back-end Developer**](https://cy4u.dev "Back-end Developer"), [**Node.JS Developer**](https://cy4u.dev "Node.JS Developer"), [**Backend Developer**](https://cy4u.dev "Backend Developer")
+[**Trendyol**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyol"), [**Trendyol API**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyol API"), [**Trendyol Unofficial API**](https://cy4u.dev/Trendyol-Unofficial-API/tr "Trendyol Unofficial API"), [**NodeJS Developer**](https://cy4u.dev "NodeJS Developer"), [**Back-end Developer**](https://cy4u.dev "Back-end Developer"), [**Node.JS Developer**](https://cy4u.dev "Node.JS Developer"), [**Backend Developer**](https://cy4u.dev "Backend Developer")
 
 #### Sponsorluk ve Bağış
 
