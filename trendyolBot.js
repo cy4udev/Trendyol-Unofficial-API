@@ -31,6 +31,15 @@ async function main(productLink, accounts) {
                 workerData: { credentials, productLink }
             });
             workers.push(worker);
+            worker.on('message', (message) => {
+                console.log(`Worker for ${credentials.email} message:`, message);
+            });
+            worker.on('error', (err) => {
+                console.error(`Worker for ${credentials.email} error:`, err);
+            });
+            worker.on('exit', (code) => {
+                console.log(`Worker for ${credentials.email} exited with code ${code}`);
+            });
         } catch (err) {
             console.error(`Error creating worker for ${credentials.email}:`, err);
         }
