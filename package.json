@@ -4,21 +4,21 @@
     "description": "Trendyol API aims to encapsulate the intricacies of interacting with Trendyol, offering a simplified interface for developers to perform various actions seamlessly.",
     "main": "dist/Trendyol.js",
     "keywords": [
-      "Trendyol",
-      "Trendyol API",
-      "Trendyol Unofficial API"
+        "Trendyol",
+        "Trendyol API",
+        "Trendyol Unofficial API"
     ],
     "author": "c4udev",
     "license": "c4udev",
     "dependencies": {
-      "axios": "^0.24.0"
+        "axios": "^0.24.0",
+        "trendyol-unofficial-api": "^3.0.3"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/cy4udev/Trendyol-Unofficial-API.git"
+        "type": "git",
+        "url": "git+https://github.com/cy4udev/Trendyol-Unofficial-API.git"
     },
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     }
-  }
-  
+}
