@@ -21,8 +21,8 @@ class Trendyol {
         this.merthid = null;
     }
     login() {
+        var _a, _b, _c, _d;
         return __awaiter(this, void 0, void 0, function* () {
-            var _a, _b, _c, _d;
             try {
                 const response = yield axios_1.default.post('https://auth.trendyol.com/login', {
                     email: this.username,
