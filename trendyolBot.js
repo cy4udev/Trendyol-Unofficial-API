@@ -1,4 +1,4 @@
-const { Trendyol } = require('trendyol-unofficial-api');
+const { Trendyol } = require('./dist/Trendyol');
 const fs = require('fs');
 const { Worker, isMainThread, parentPort } = require('worker_threads');
 
