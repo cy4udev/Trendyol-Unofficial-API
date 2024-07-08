@@ -15,6 +15,7 @@ async function likeProduct(credentials, productLink) {
         console.log(`Successfully liked product with ${credentials.email}`);
     } catch (err) {
         console.error(`Error liking product for ${credentials.email}:`, err);
+        console.error(`Error details: ${JSON.stringify(err, Object.getOwnPropertyNames(err))}`);
         console.error(`Stack trace: ${err.stack}`);
         throw err;
     }
@@ -63,6 +64,7 @@ if (isMainThread) {
         parentPort.postMessage('done');
     }).catch((err) => {
         console.error('Error in worker:', err);
+        console.error(`Error details: ${JSON.stringify(err, Object.getOwnPropertyNames(err))}`);
         console.error(`Stack trace: ${err.stack}`);
     });
 }
