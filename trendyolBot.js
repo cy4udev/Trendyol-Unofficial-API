@@ -17,6 +17,10 @@ async function likeProduct(credentials, productLink) {
         console.error(`Error liking product for ${credentials.email}:`, err);
         console.error(`Error details: ${JSON.stringify(err, Object.getOwnPropertyNames(err))}`);
         console.error(`Stack trace: ${err.stack}`);
+        if (err.response) {
+            console.error(`HTTP status: ${err.response.status}`);
+            console.error(`HTTP response body: ${JSON.stringify(err.response.data)}`);
+        }
         throw err;
     }
 }
@@ -45,13 +49,15 @@ async function main(productLink, accounts) {
         }
     }
 
-    for (const worker of workers) {
-        await new Promise((resolve) => worker.on('exit', resolve));
-    }
+    await Promise.all(workers.map(worker => new Promise((resolve) => worker.on('exit', resolve))));
 }
 
 if (isMainThread) {
-    const productLink = process.argv[2] || 'https://www.trendyol.com/product-link';
+    const productLink = process.argv[2];
+    if (!productLink) {
+        console.error('Error: Product link is required.');
+        process.exit(1);
+    }
     let accounts;
     try {
         accounts = JSON.parse(fs.readFileSync('accounts.json', 'utf8'));
@@ -60,6 +66,7 @@ if (isMainThread) {
         }
     } catch (err) {
         console.error('Error reading or parsing accounts.json:', err);
+        console.error('Content of accounts.json:', fs.readFileSync('accounts.json', 'utf8'));
         process.exit(1);
     }
     main(productLink, accounts).then(() => {
@@ -75,5 +82,9 @@ if (isMainThread) {
         console.error('Error in worker:', err);
         console.error(`Error details: ${JSON.stringify(err, Object.getOwnPropertyNames(err))}`);
         console.error(`Stack trace: ${err.stack}`);
+        if (err.response) {
+            console.error(`HTTP status: ${err.response.status}`);
+            console.error(`HTTP response body: ${JSON.stringify(err.response.data)}`);
+        }
     });
 }
