@@ -7,9 +7,11 @@ async function likeProduct(credentials, productLink) {
     const trendyol = new Trendyol();
     try {
         console.log(`Logging in with ${credentials.email}`);
-        await trendyol.login(credentials.email, credentials.password);
+        const loginResponse = await trendyol.login(credentials.email, credentials.password);
+        console.log(`Login response for ${credentials.email}:`, loginResponse);
         console.log(`Liking product with ${credentials.email}`);
-        await trendyol.likeProduct(productLink);
+        const likeResponse = await trendyol.likeProduct(productLink);
+        console.log(`Like response for ${credentials.email}:`, likeResponse);
         console.log(`Successfully liked product with ${credentials.email}`);
     } catch (err) {
         console.error(`Error liking product for ${credentials.email}:`, err);
