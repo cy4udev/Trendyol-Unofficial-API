@@ -6,8 +6,11 @@ const { Worker, isMainThread, parentPort } = require('worker_threads');
 async function likeProduct(credentials, productLink) {
     const trendyol = new Trendyol();
     try {
+        console.log(`Logging in with ${credentials.email}`);
         await trendyol.login(credentials.email, credentials.password);
+        console.log(`Liking product with ${credentials.email}`);
         await trendyol.likeProduct(productLink);
+        console.log(`Successfully liked product with ${credentials.email}`);
     } catch (err) {
         console.error(`Error liking product for ${credentials.email}:`, err);
         throw err;
@@ -19,6 +22,7 @@ async function main(productLink, accounts) {
     const workers = [];
     for (const credentials of accounts) {
         try {
+            console.log(`Creating worker for ${credentials.email}`);
             const worker = new Worker(__filename, {
                 workerData: { credentials, productLink }
             });
